@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    font-family: "ubuntu", sans-serif;
+}
+header{
+    text-align: center;
+    padding: 1em 0;
+    background-color: #f8f8f8;
+}
+h1{
+    font-family: "lora", serif;
+    font-weight: 400;
+    color: #143771;
+    font-size: 2rem;
+    margin: 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 900px;
+}
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.subtittle{
+    font-weight: 700;
+    font-size: 0.75rem;
+    color: #1792D2;
+    margin: 0;
+}
+nav ul{
+list-style: none;
+display: flex;
+justify-content: center;
+padding: 0;
+
+}
+nav li{
+    margin: 0 2em ;
+}
+nav a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #7d7d7d;
+    padding: .25em 0;
+}
+nav a:hover,
+nav a:focus{
+    color: #1792D2;
+}
+
+@media (max-width:675px){
+    .container-nav{
+        flex-direction: column;
+    }
+    header{
+        text-align: center;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    nav li{
+        margin: .5em 0 ;
+    }
+    
+}
